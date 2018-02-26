@@ -22,7 +22,7 @@
 				<div class="footer-item">
 					<h6>For Buyers</h6>
 					<ul>
-						<li><a href="plans-and-pricing.html">Plans and Pricing</a></li>
+						<li><a href="pricing-and-plans">Plans and Pricing</a></li>
 						<li><a href="#">License information</a></li>
 						<li><a href="#">Join</a></li>						
 					</ul>
