@@ -730,22 +730,27 @@ body.layout-2 {
 .questions h6.angle-down i {
     transform: rotate(180deg);
 }
-.forgot-pasword {
+.forgot-password {
     float: left;
     padding: 165px 0;
     text-align: center;
     width: 100%;
 }
-.forgot-pasword h2 {
+.forgot-password h2 {
     color: #383838;
     font-size: 30px;
     margin: 0 0 5px;
 }
-.forgot-pasword p {
+.forgot-password p {
     font-size: 13px;
     margin: 0 0 30px;
 }
-
+.pr0{ padding-right: 0;}
+.layout-2 .content a.contact-us-at-link {
+    border: none;
+    padding: 0;
+    text-transform: none;
+}
 
 
 

@@ -49,7 +49,7 @@
                </form>
             </div>
             <div class="signup-note">
-               <p class="text-center">Don't have an account yet? <a href="#">Sign up</a></p>
+               <p class="text-center">Don't have an account yet? <a href="{{ route('signup-as') }}">Sign up</a></p>
             </div>
          </div>
       </div>

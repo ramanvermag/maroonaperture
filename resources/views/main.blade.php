@@ -8,7 +8,8 @@
     <title>{{ config('app.name', 'Laravel') }}</title>
     @include('layouts.includes.head')
 </head>
-<body>
+
+<body class="home-page-layout" >
     
     @include('layouts.includes.header_1')
 

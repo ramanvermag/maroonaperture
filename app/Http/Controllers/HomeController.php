@@ -13,7 +13,7 @@ class HomeController extends Controller
      */
     public function __construct()
     {
-        $this->middleware('auth');
+        $this->middleware('auth',['except' => ['signup_as'] ]);
     }
 
     /**
@@ -23,6 +23,17 @@ class HomeController extends Controller
      */
     public function index()
     {
+
         return view('home');
+    }
+
+
+    public function signup_as()
+    { 
+        return view('layouts.pages.signup_as');
+    }
+    public function account_created()
+    { 
+        return view('layouts.pages.account-created');
     }
 }

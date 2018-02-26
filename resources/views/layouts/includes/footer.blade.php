@@ -43,7 +43,7 @@
 					<h6>Support</h6>
 					<ul>
 						<li><a href="#">Contact Us</a></li>
-						<li><a href="faq.html">FAQ</a></li>
+						<li><a href="faq">FAQ</a></li>
 						<li><a href="#">Legal</a></li>
 						<li><a href="#">Privacy</a></li>						
 					</ul>
@@ -92,10 +92,16 @@ jQuery(document).ready(function () {
 			else{
 				$("body").removeClass("sticky");
 			}
-		};
+	};
 
 		$(window).scroll(stickyFunction);
 		stickyFunction();
+		$(document).ready(function(){
+    $(".questions h6").click(function(){
+    	$(this).toggleClass("angle-down");
+    	$(this).siblings("p").slideToggle();
+    });
+});
 	
 });
 </script>
